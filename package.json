@@ -4,7 +4,8 @@
   "main": "tailwind.config.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/output.css --watch",
-    "prettier": "npx prettier --write **/*.html"
+    "prettier": "npx prettier --write **/*.html",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --minify"
   },
   "keywords": [],
   "author": "",
